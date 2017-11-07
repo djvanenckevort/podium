@@ -11,7 +11,16 @@ public enum EventType {
     Authentication_Switch,
     Authorization,
     Authorization_Failed,
-    Authorization_Success;
+    Authorization_Success,
+    Registration,
+    Verified_Registration,
+    Update_User,
+    Update_UserPassword,
+    Unlock_Account,
+    Delete_User,
+    Reset_UserPassword_Request,
+    User_Activated,
+    Send_ActivationKey;
 
     public static EventType fromName(String name) {
         Optional<EventType> optional = Arrays.stream(EventType.values()).filter(value ->
