@@ -128,20 +128,12 @@ podium:
         default-include-pattern: /api/.*
         title: podiumGateway API
         description: podiumGateway API documentation
-        version: 0.0.1
+        version: 0.0.7
         terms-of-service-url:
         contact-name:
-        contact-url:
+        contact-url: https://github.com/thehyve/podium
         contact-email:
-        license:
-        license-url:
+        license: Apache 2.0
+        license-url: http://www.apache.org/licenses/LICENSE-2.0.html
     ribbon:
         display-on-active-profiles: dev
-
-# ===================================================================
-# Application specific properties
-# Add your own application properties here, see the ApplicationProperties class
-# to have type-safe configuration, like in the PodiumProperties above
-# ===================================================================
-
-application:

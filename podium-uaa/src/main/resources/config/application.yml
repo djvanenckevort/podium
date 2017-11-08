@@ -39,7 +39,7 @@ ribbon:
 management:
     context-path: /management
     security:
-        roles: ADMIN
+        roles: PODIUM_ADMIN
     health:
         mail:
             enabled: false # When using the MailService, configure an SMTP server and set this to true
@@ -105,13 +105,13 @@ podium:
     swagger:
         title: podiumUaa API
         description: podiumUaa API documentation
-        version: 0.0.1
+        version: 0.0.7
         termsOfServiceUrl:
         contactName:
-        contactUrl:
+        contactUrl: https://github.com/thehyve/podium
         contactEmail:
-        license:
-        licenseUrl:
+        license: Apache 2.0
+        licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.html
     ribbon:
         # comma separated list of profiles to show a ribbon on the GUI
         displayOnActiveProfiles: dev
